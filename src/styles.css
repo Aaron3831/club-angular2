@@ -2,3 +2,7 @@ body {
     background-image: url('/assets/images/shibuyanights.jpg');
     background-color: #ffffff;
 }
+
+.permanent-marker-font {
+  font-family: 'Permanent Marker', cursive;
+}

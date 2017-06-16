@@ -1,0 +1,16 @@
+.text-center-selector {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.red-text {
+  color: #cc0000
+}
+
+.black-text {
+  color: #000000
+}
+
+.navbar {
+  height: 100px;
+}
