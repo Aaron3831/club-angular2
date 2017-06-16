@@ -1,0 +1,57 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Album to Inventory</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Name:</label>
+        <br>
+        <input #newName>
+      </div>
+
+      <div>
+        <label>Age:</label>
+        <br>
+        <input #newAge>
+      </div>
+
+      <div>
+        <label>Gender:</label>
+        <br>
+        <input #newGender>
+      </div>
+
+      <div>
+        <label>Biography:</label>
+        <br>
+        <textarea #newBio></textarea>
+      </div>
+
+      <div>
+        <label>Interests:</label>
+        <br>
+        <input #newInterest>
+      </div>
+
+      <div>
+        <label>Image:</label>
+        <br>
+        <input #newImage>
+      </div>
+
+      <div>
+        <label>Favorite Genre:</label>
+        <br>
+        <input #newFavoritegenre>
+      </div>
+
+      <div>
+        <label>Current Favorite Song:</label>
+        <br>
+        <input #newCurrentsong>
+      </div>
+      <button (click)="submitForm(newName.value, newAge.value, newGender.value, newBio.value, newInterest.value, newImage.value, newFavoritegenre.value, newCurrentsong.value); newName.value=''; newAge.value=''; newGender.value=''; newBio.value=''; newInterest.value=''; newImage.value=''; newFavoritegenre.value=''; newCurrentsong.value=''">Add</button>
+    </div>
+  </div>
+</div>

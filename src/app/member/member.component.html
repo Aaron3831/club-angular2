@@ -1,0 +1,5 @@
+<div *ngFor="let member of members | async" (click)="goToDetailPage(member)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{member.name}}</em> <br> {{member.image}}</h3>
+  </div>
+</div>
