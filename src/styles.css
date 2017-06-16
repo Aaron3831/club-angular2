@@ -6,3 +6,8 @@ body {
 .permanent-marker-font {
   font-family: 'Permanent Marker', cursive;
 }
+
+img {
+    width:200px; /* you can use % */
+    height: auto;
+}
