@@ -14,3 +14,13 @@
 .navbar {
   height: 100px;
 }
+
+.container {
+   margin:0 auto;
+   width:960px;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
