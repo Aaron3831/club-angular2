@@ -1,7 +1,7 @@
 { "members": [{
     "name": "Aaron",
     "age": 26,
-    "gender": "Male",
+    "gender": "male",
     "bio": "26 year old deep sea bacteria",
     "interest": "Cooking and gaming",
     "image": "https://img0.etsystatic.com/153/0/12293053/il_340x270.1133718984_pgx2.jpg",
@@ -10,7 +10,7 @@
     }, {
     "name": "David",
     "age": 26,
-    "gender": "Male",
+    "gender": "male",
     "bio": "F.A.N.G. Main",
     "interest": "Streefighter V",
     "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/crispyb0i-profile_image-0cd58d16f0bd60af-300x300.jpeg",
@@ -19,7 +19,7 @@
       }, {
     "name": "Jason",
     "age": 28,
-    "gender": "Male",
+    "gender": "male",
     "bio": "Supercell fanboy",
     "interest": "Sports",
     "image": "https://pbs.twimg.com/profile_images/1595675503/IMG_3477_face0_400x400.jpg",

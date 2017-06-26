@@ -1,3 +1,37 @@
-<p>
-  edit-member works!
-</p>
+<h4>Edit Member</h4>
+
+<label>New Member Name:</label>
+<input [(ngModel)]="selectedMember.name">
+<br>
+
+<label>New Member Age:</label>
+<input [(ngModel)]="selectedMember.age">
+<br>
+
+<label>New Member Gender:</label>
+<input [(ngModel)]="selectedMember.gender">
+<br>
+
+<label>New Member Name:</label>
+<input [(ngModel)]="selectedMember.bio">
+<br>
+
+<label>New Member Age:</label>
+<input [(ngModel)]="selectedMember.interest">
+<br>
+
+<label>New Member Gender:</label>
+<input [(ngModel)]="selectedMember.image">
+<br>
+
+<label>New Member Name:</label>
+<input [(ngModel)]="selectedMember.favoritegenre">
+<br>
+
+<label>New Member Age:</label>
+<input [(ngModel)]="selectedMember.currentsong">
+<br>
+
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>
+<hr>
+<button (click)="beginDeletingMember(selectedMember)">Delete</button>

@@ -13,6 +13,13 @@ import { ActivatedRoute, Params } from '@angular/router';
 })
 export class MemberComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+
+  filterByGender: string = "allMembers";
+
+  onChange(optionFromMenu) {
+    this.filterByGender = optionFromMenu;
+  }
 
   constructor(private route: ActivatedRoute, private router: Router, private memberService: MemberService){}
 
